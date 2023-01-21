@@ -54,7 +54,7 @@ whoami
 ```
 <br>
 
-Jogar o resultado de um comando para dentro de um arquivo
+Jogar a saída de um comando para dentro de um arquivo
 ```bash
 whoami >> "user.txt"
 ```
@@ -151,7 +151,7 @@ ip a
 <br>
 
 Pegar a saída de um comando e jogar para algum outro programa, por meio do `|` <br>
-No exemplo abaixo, o conteúdo extraído pelo comando `ip a` é jogado para o programa `grep`. O programa `grep`, por sua vez, é utilizado para filtrar o conteúdo que o comando `ip a` extraiu, listando apenas o que há "inet"
+No exemplo abaixo, a saída do comando `ip a` é jogada para o programa `grep`. O programa `grep`, por sua vez, foi utilizado para filtrar o conteúdo obtido pelo comando `ip a`, listando apenas o que há "inet"
 ```bash
 ip a | grep inet
 ```
@@ -237,7 +237,7 @@ lspci
 ```
 <br>
 
-Listar o histórico de comandos já utilizados no terminal
+Listar um histórico de comandos já utilizados no terminal
 ```bash
 history
 ```
