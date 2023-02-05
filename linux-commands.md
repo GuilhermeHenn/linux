@@ -74,6 +74,7 @@ nano "arquivo.txt"
 
 Mostrar o conteúdo de um arquivo 
 ```bash
+bat "arquivo.txt"
 cat "arquivo.txt"
 ```
 <br>
