@@ -164,6 +164,12 @@ ping "IP/URL/domínio"
 ```
 <br>
 
+Listar informações referentes a determinado domínio
+```bash
+nslookup "domínio"
+```
+<br>
+
 Listar informações sobre a memória RAM:
 - Memória total
 - Memória em uso
