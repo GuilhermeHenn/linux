@@ -184,6 +184,7 @@ free -h
 Monitorar e derrubar processos do SO <br>
 Semelhante ao Task Manager do Windows, porém no terminal
 ```bash
+btop
 htop 
 top 
 ```
